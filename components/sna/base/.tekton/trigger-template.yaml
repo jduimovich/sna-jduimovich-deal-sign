@@ -48,6 +48,6 @@ spec:
         subPath: sna/$(tt.params.git-revision)
       - name: registry-auth
         secret:
-          secretName: redhat-appstudio-registry-pull-secret
+          secretName: johnd
     status: {}
 status: {}
